@@ -6,6 +6,7 @@ const MoreBlogsContent = () => {
     <div className="flex flex-col items-center justify-center text-start cursor-pointer hover:scale-105 transition-all duration-700 hover:bg-slate-200 p-5">
       <div>
         <Image
+          alt="Blog Image"
           className="rounded-lg shadow-md"
           src="/hero2.jpg"
           width={500}
@@ -14,7 +15,7 @@ const MoreBlogsContent = () => {
       </div>
       <div className="place-content-center p-2">
         <h1 className="font-bold text-lg mt-2 mb-3">
-          Marvel's Spider-Man 2: Swinging into New Heights
+          Marvel&apos;s Spider-Man 2: Swinging into New Heights
         </h1>
       </div>
     </div>

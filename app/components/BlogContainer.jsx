@@ -12,6 +12,7 @@ const BlogContainer = ({ post }) => {
       <div className="max-sm:col-span-2">
       <figure className="w-full h-64 overflow-hidden rounded-xl">
           <Image
+          alt="Blog Image"
             src={imageUrl}
             width={500}
             height={500}

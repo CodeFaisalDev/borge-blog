@@ -15,6 +15,7 @@ const HotTopicsContainer = ({ post }) => {
         <div>
           <figure className="w-full h-64 overflow-hidden rounded-xl">
             <Image
+            alt="Blog Image"
               src={imageUrl}
               width={500}
               height={500}
